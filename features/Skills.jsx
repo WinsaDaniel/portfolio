@@ -3,7 +3,7 @@ function Skills() {
     <>
       <h1
         id="Skills"
-        className="mb-4 py-4 px-3 font-bold text-3xl text-stone-800 mt-16"
+        className="mb-4 py-4 px-3 font-bold text-3xl text-stone-800 mt-16 underline"
       >
         Skills
       </h1>
