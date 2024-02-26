@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <>
+    <div className="mt-20">
       <h1
         id="Skills"
         className="mb-4 py-4 px-3 font-bold text-3xl text-stone-800 mt-16 underline"
@@ -70,7 +70,7 @@ function Skills() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -4,12 +4,12 @@
 // import Main from "../components/Main";
 // function App() {
 //   return (
-//     <div className="grid grid-rows-[auto_1fr_auto] h-screen ">
+//     <div className="grid grid-rows-[auto_1fr_auto] h-max ">
 //       <div className="bg-stone-800 text-center text-stone-200  text-3xl   w-full  ">
 //         <Header />
 //       </div>
 //       <div className="grid grid-cols-[1fr_4fr]">
-//         <div className="h-screen ">
+//         <div className="h-screen">
 //           <Sidebar />
 //         </div>
 //         <main className=" text-stone-800 ">
@@ -29,7 +29,7 @@ import Main from "../components/Main";
 function App() {
   return (
     <div className="flex flex-col  ">
-      <div className="h-30 ">
+      <div className="h-30  text-3xl fixed">
         <Header />
       </div>
       <div className="flex flex-grow ">

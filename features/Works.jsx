@@ -10,7 +10,7 @@ function Works() {
       <p>these are among Previous Works </p>
       <div className="flex flex-row">
         <img
-          src="../images/Screenshot2.png"
+          src="../images/Capture2.PNG"
           className="d-block mx-auto"
           alt="Tailwind CSS"
         />

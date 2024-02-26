@@ -6,7 +6,7 @@ import Contact from "../features/Contact";
 
 function Main() {
   return (
-    <div className="text-center px-4 py-3  overflow-y-auto h-screen text-stone-800  mt-16">
+    <div className="text-center px-4 py-3  overflow-y-auto h-screen text-stone-800  mt-16 bg-blue-500">
       <section id="About">
         <About />
       </section>

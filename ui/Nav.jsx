@@ -3,10 +3,6 @@ import { Link } from "react-scroll";
 function Nav() {
   return (
     <nav className="flex flex-col px-4 py-4 text-2xl font-semibold pt-8 gap-6 text-center overflow-y-auto">
-      <br />
-      <br />
-      <br />
-
       <Link
         to="About"
         spy={true}
@@ -27,7 +23,6 @@ function Nav() {
       >
         Skills
       </Link>
-
       <Link
         to="Cv"
         spy={true}
@@ -37,7 +32,6 @@ function Nav() {
       >
         Cv
       </Link>
-
       <Link
         to="Works"
         spy={true}
@@ -47,7 +41,6 @@ function Nav() {
       >
         Works
       </Link>
-
       <Link
         to="Contact"
         spy={true}
