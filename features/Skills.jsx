@@ -3,7 +3,9 @@ function Skills() {
     <div className="mt-20">
       <h1
         id="Skills"
-        className="mb-4 py-4 px-3 font-bold text-3xl text-stone-800 mt-16 underline"
+        className="mb-4 py-4 px-3 font-bold text-stone-800 mt-16 underline sm:text-xl
+        md:text-lg
+        lg:text-base"
       >
         Skills
       </h1>

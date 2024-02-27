@@ -22,21 +22,45 @@
 
 // export default App;
 
+// import Sidebar from "../components/Sidebar";
+// import Header from "../components/Header";
+// import Main from "../components/Main";
+
+// function App() {
+//   return (
+//     <div className="flex flex-col  ">
+//       <div className="h-30   fixed">
+//         <Header />
+//       </div>
+//       <div className="flex flex-grow ">
+//         <div className="  w-1/4 ">
+//           <Sidebar />
+//         </div>
+//         <div className=" w-3/4   ">
+//           <Main />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
+
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import Main from "../components/Main";
 
 function App() {
   return (
-    <div className="flex flex-col  ">
-      <div className="h-30  text-3xl fixed">
+    <div className="flex flex-col h-screen">
+      <div className="fixed top-0 w-full z-10">
         <Header />
       </div>
-      <div className="flex flex-grow ">
-        <div className="w-1/4  ">
+      <div className="flex flex-grow">
+        <div className=" w-2/12">
           <Sidebar />
         </div>
-        <div className="w-3/4  sm:w-3/3  ">
+        <div className=" w-10/12  overflow-auto">
           <Main />
         </div>
       </div>

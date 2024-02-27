@@ -3,11 +3,11 @@ function Contact() {
     <div>
       <h1
         id="Contact"
-        className="mt-4 mb-4 font-extrabold text-3xl justify-center"
+        className="mt-4 mb-4 text-3xl justify-center sm:text-xl md:text-lg lg:text-base"
       >
         Reach Me
       </h1>
-      <p className="mb-2">
+      <p className="mb-2 ">
         Feel free. You are welcome for comments, feedbacks, and working
         together.
       </p>

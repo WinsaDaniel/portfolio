@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function Nav() {
   return (
-    <nav className="flex flex-col px-4 py-4 text-2xl font-semibold pt-8 gap-6 text-center overflow-y-auto">
+    <nav className="flex flex-col  sm:py-0 sm:px-0 sm:text-xs md:text-sm lg:text-lg pt-8 gap-6 sm:gap-3 text-center sm:text-left ">
       <Link
         to="About"
         spy={true}

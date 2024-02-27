@@ -7,13 +7,10 @@ function About() {
       <br />
       <br />
 
-      <h1
-        id="About"
-        className="mb-4 py-4 px-3 font-bold text-3xl text-stone-800 mt-16"
-      >
+      <h1 id="About" className=" py-2 px-1  text-stone-800 mt-16 ">
         About
       </h1>
-      <p className="text-center font-serif text-bold px-3 py-4 mx-3 my-4">
+      <p className="text-center font-serif  text-sm px-1 py-2 mx-1 my-2">
         Welcome! I'm Winsa Daniel, a frontend developer passionate about
         creating engaging digital experiences. With expertise in HTML, CSS,
         JavaScript, and React, I focus on crafting user-friendly interfaces that
